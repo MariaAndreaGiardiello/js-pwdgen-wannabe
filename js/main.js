@@ -1,14 +1,15 @@
-const name = document.getElementById("name").innerHTML;
+
 const nome = prompt("Inserisci Nome");
-document.getElementById("name").innerHTML = `${name} ${nome}`;
+console.log(nome)
 
-const surname = document.getElementById("surname").innerHTML;
 const cognome = prompt("Inserisci Cognome");
-document.getElementById("surname").innerHTML = `${surname} ${cognome}`;
+console.log(cognome)
 
-const favcol = document.getElementById("favcol").innerHTML;
+
 const colore = prompt("Colore Preferito");
-document.getElementById("favcol").innerHTML = `${surname} ${colore}`;
+console.log(colore)
+
+const numero = "21"
 
 alert("Grazie, non ci prenderemo cura di queste informazioni.");
-document.getElementById("recap").innerHTML = `${nome} ${cognome} ${colore}`;
+document.getElementById("password").innerHTML = `${nome}${cognome}${colore}${numero}`;
